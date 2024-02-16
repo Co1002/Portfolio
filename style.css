@@ -1,0 +1,18 @@
+#header-titles{
+    animation: up-down 4s infinite 1s ease-in-out;
+    text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+#header-image{
+    animation: up-down 4s infinite 2s ease-in-out;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+@keyframes up-down {
+    50%{
+        transform: translateY(20px);
+    }
+}
